@@ -1,0 +1,525 @@
+@font-face {
+    font-family: 'b';
+    src: url(font/helvetica_bold.otf);
+}
+@font-face {
+    font-family: 'normal';
+    src: url(font/helvetica_regular.otf);
+}
+@font-face {
+    font-family: 'l';
+    src: url(font/helvetica_light.otf);
+}
+body,html{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.menu{
+    align-items: center;
+    display: flex;
+}
+.menu a{
+    font-size: 24px;
+    color: #686868;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: 'l';
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid #686868;
+}
+.menu hr{
+    border: none;
+    height: 30px;
+    width: 1px;
+    background-color: #686868;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.about_text_cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_text_block{
+    width: 80%;
+    padding: 25px;
+    background: linear-gradient(98.05deg, #9E6C1A 16.5%, rgba(12, 14, 13, 0.6) 56.5%, rgba(12, 14, 13, 0.4) 84%, #0C0E0D 100%);
+    border: 0.3px solid #9E6C1A;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.about_text{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.about_text h1{
+    font-size: 64px;
+    color: #fff;
+    line-height: 74px;
+    color: #F1EDE4;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-family: 'b';
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.about_text p{
+    font-size: 24px;
+    color: #fff;
+    line-height: 27px;
+    color: #F1EDE4;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-family: 'l';
+    width: 90%;
+    margin-bottom: 60px;
+}
+.about_text_block img{
+    width: 300px;
+    height: auto;
+}
+.p{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'l';
+    color: #686868;
+}
+.best_games_cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.best_games_block{
+    width: 82%;
+    background-color: #3F2B0A;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.best_games_block h3{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'normal';
+    color: #B4AC9F;
+    line-height: 28px;
+}
+.best_games_block h3 img{
+    width: 46px;
+    height: auto;
+    margin-right: 7px;
+}
+.best_games{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.best_game{
+    width: 19%;
+    padding: 2%;
+    background-color: #000002;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+.best_game img{
+    width: 100%;
+    height: auto;
+}
+.best_game p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'l';
+    color: #fff;
+    font-style: italic;
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.best_game a{
+    cursor: pointer;
+    width: 90%;
+    height: 40px;
+    background: linear-gradient(92.03deg, #FFA204 3.72%, #FF741F 39.22%, #E08300 92.48%);
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+font-style: italic;
+line-height: 23px;
+text-decoration: none;
+font-family: 'l';
+text-transform: uppercase;
+}
+.quick_cont{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.quick_block{
+    width: 80%;
+    padding: 25px;
+    background: linear-gradient(98.05deg, rgba(12, 14, 13, 0.2) 10.5%, rgba(12, 14, 13, 0.4) 26.5%, rgba(12, 14, 13, 0.6) 45%, #9E6C1A 80.5%);
+    border: 0.3px solid #9E6C1A;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.quick_block .about_text h2{
+    color: transparent;
+    -webkit-text-stroke-color: #F1EDE4;
+    -webkit-text-stroke-width: 1px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'b';
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.quick_block .about_text h6{
+ color: #FFA204;
+ font-style: italic;
+    font-size: 10px;
+    font-weight: 300;
+    font-family: 'l';
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.quick_block .about_text p{
+    margin-bottom: 30px;
+}
+.dis_cont{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.dis_cont p{
+    font-size: 24px;
+    color: #fff;
+    line-height: 28px;
+    color: #F1EDE4;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-family: 'l';
+    width: 60%;
+    margin-bottom: 60px;
+}
+.dis_cont h1{
+    
+    color: transparent;
+    -webkit-text-stroke-color: #9E6C1A;
+    -webkit-text-stroke-width: 1px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'b';
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    padding-bottom: 50px;
+}
+footer p{
+    font-size: 24px;
+    color: #686868;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: 'l';
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    margin-bottom: 25px;
+
+}
+footer .emal{
+    border-bottom: 1px solid #686868;
+}
+footer img{
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.pop_up{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #FFFFFF66;
+    display: flex;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+}
+.pop_up_block{
+    width: 400px;
+    background: #643E00;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 50px 0px #FF741F;
+    padding-bottom: 20px;
+}
+.pop_up_block h2{
+    width: 190px;
+    height: 45px;
+    border-radius: 45px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -23px;
+    font-family: 'l';
+}
+.pop_up_block img{
+    width: 175px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.pop_up_block h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 28px;
+    font-family: 'l';
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.pop_up_block button{
+    cursor: pointer;
+    width: 290px;
+    height: 40px;
+    border: 1px solid;
+border: 1px solid #FF741F;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+font-size: 23px;
+font-weight: 400;
+font-family: 'l';
+margin-bottom: 20px;
+background: none;
+
+}
+.pop_iframe{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #FFFFFF66;
+    display: flex;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+}
+iframe{
+   width: 860px;
+   height: 570px;
+   border-radius: 20px;
+}
+
+#frame1{
+    display: none;
+}
+
+#frame2{
+    display: none;
+}
+
+#frame3{
+    display: none;
+}
+
+#frame4{
+    display: none;
+}
+
+.privacy{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.mini_privacy{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+.mini_privacy p{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'normal';
+    color: #FFFFFF;
+}
+.mini_privacy h1{
+    font-family: 'normal';
+    color: #FFFFFF;
+}
+.mini_privacy h2{
+    font-family: 'normal';
+    font-size: 26px;
+    color: #FFFFFF;
+}
+.mini_privacy h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'normal';
+    color: #FFFFFF;
+}
+.mini_privacy ul li{
+    font-size: 18px;
+    font-family: 'normal';
+    color: #FFFFFF;
+    line-height: 150%;
+}
+
+
+
+
+@media screen and (max-width: 900px){
+    iframe{
+        width: 400px;
+        height: 500px;
+        border-radius: 20px;
+     }
+    .pop_up_block button{
+        width: 217px;
+        height: 40px;
+    }
+    .pop_up_block h1{
+        font-size: 24px;
+    }
+    .pop_up_block{
+        width: 340px;
+    }
+    .dis_cont h1{
+        font-size: 48px;
+        width: 90%;
+    }
+    .dis_cont p{
+        width: 80%;
+    }
+    .quick_block .about_text h2{
+        font-size: 48px;
+    }
+    .quick_block .about_text h6{
+        width: 50%;
+    }
+    .quick_block{
+        background: linear-gradient(98.05deg, #9E6C1A 16.5%, rgba(12, 14, 13, 0.6) 56.5%, rgba(12, 14, 13, 0.4) 84%, #0C0E0D 100%);
+        padding-bottom: 60px;
+    }
+    .best_games_block h3{
+        width: 100%;
+        justify-content: left;
+    }
+    .best_games_block{
+        flex-direction: column;
+        align-items: center;
+        width: 86%;
+        padding: 3%;
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+    .best_games{
+        flex-direction: column;
+        align-items: center;
+    }
+    .best_game{
+        width: 72%;
+        padding: 4%;
+        margin-bottom: 25px;
+    }
+    footer{
+        padding-bottom: 20px;
+    }
+    footer p{
+        font-size: 18px;
+    }
+    .menu a{
+        font-size: 16px;
+    }
+    .about_text_block img{
+        display: none;
+    }
+    .about_text_block{
+        flex-direction: column;
+        align-items: center;
+        width: 86%;
+        padding: 3%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .about_text{
+        width: 100%;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+    }
+    .about_text h1{
+        font-size: 48px;
+        line-height: 55px;
+    }
+    .about_text p{
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 0;
+    }
+}
